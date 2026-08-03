@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed "s|password: .*|password: [DB_PASSWORD]|g"
+sed "s|password: .*|password: DB_PWD|g"
