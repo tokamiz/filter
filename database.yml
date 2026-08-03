@@ -1,4 +1,4 @@
 host: localhost 
 port: 5432
-password: DB_PSW
+password: password: supersecret123
 test: 98984374835
