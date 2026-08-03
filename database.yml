@@ -1,4 +1,4 @@
 host: localhost 
 port: 5432
-password: DB_PWD
-test: 43743627
+password: supersecret123
+test: 343657285
