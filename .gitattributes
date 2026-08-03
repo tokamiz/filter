@@ -3,4 +3,4 @@
 *.md text eol=lf
 *.jpg binary
 *.png binary
-secrets.yml filter=secrets
+database.yml filter=secrets
