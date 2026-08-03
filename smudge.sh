@@ -1,5 +1,4 @@
 #!/bin/bash
 
-DB_PWD=$(grep password ./secrets.yml | cut -d : -f2 | xargs);
-
-sed -i "s|password: DB_PWD|password: ${DB_PWD}|g"
+ECHTES_PSW=$(grep "password:" ./secrets.yml | cut -d':' -f2 | xargs)
+sed "s|password: DB_PSW|password: ${ECHTES_PSW}|g"
