@@ -1,3 +1,4 @@
 host: localhost 
 port: 5432
 password: [DB_PASSWORD]
+password-test: 1243445
